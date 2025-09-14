@@ -1,0 +1,17 @@
+{
+  "services": [
+    {
+      "type": "web",
+      "name": "ollama-phi3-mini",
+      "env": "docker",
+      "region": "oregon",
+      "plan": "free",
+      "envVars": [
+        {
+          "key": "OLLAMA_HOST",
+          "value": "0.0.0.0"
+        }
+      ]
+    }
+  ]
+}
